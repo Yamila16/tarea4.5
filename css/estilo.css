@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+  #header{
+    background:#FDF2E9; 
+    width:100%;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 40px;
+    text-align: center;
+  }
+  .carousel{
+    background-color: gainsboro;
+      font-size: 20px;
+      font-family: Impact, sans-serif;
+      text-align: center;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 40%;
+    margin: auto;
+  }
+#footer{
+    background-color:black;
+    color: blanchedalmond;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    font-size:12px;
+}
+.nav{
+  background-color: #FFD333;
+  border: 1px solid black;
+  text-align: center;
+}
+  @media only screen and (min-width: 500px) {
+    div {
+      text-align: center;
+    }
+    #postres,
+    #dulces,
+    #tortas {
+      border: 2px solid rgb(163, 149, 149);
+      border-radius: 5px;
+      font-size: 15px;
+      font-family: sans-serif;
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    /* para tablets: */
+    body {
+      background-color: #FAE5D3;
+    }
+    #postres,
+    #dulces,
+    #tortas {
+      display: inline-block;
+      margin: 2px;
+      width: 100%;
+      padding: 0;
+      background: #F4F6F6;
+      border: 2px solid black;
+      font-family: Impact,Arial, Helvetica, sans-serif;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    #dulces,
+    #tortas,
+    #postres {
+      display: inline-block;
+      background-color: #C39BD3;
+      width: 50%;
+      border-radius: 5px;
+      border: 2px solid black;
+      margin: 2px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    body {
+      background-image: url(https://thumbs.dreamstime.com/b/confiter%C3%ADa-y-pasteles-modelo-incons%C3%BAtil-de-la-panader%C3%ADa-74287289.jpg); 
+    }
+    #tortas {
+      float: right;
+    }
+    .right {
+      background-color: palegoldenrod;
+      font-size: 20px;
+      font-family: Impact, sans-serif;
+      text-align: center;
+    }
+  }
